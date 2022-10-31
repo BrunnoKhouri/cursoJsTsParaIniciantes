@@ -1,0 +1,20 @@
+Operadores Aritméticos
+
+  + Adição / Concatenação
+
+  - / *
+
+  % Resto da divisão 
+
+  ** Potenciação
+
+Ordem da tela
+
+() 
+
+**
+
+* / %
+
++ -
+
