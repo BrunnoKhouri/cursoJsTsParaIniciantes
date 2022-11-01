@@ -62,3 +62,34 @@ console.log(Number.isInteger(1.00));
 console.log(Number.isInteger(num4));
 num4 = parseFloat(num4.toFixed(2));
 console.log(Number.isInteger(num4));
+
+// Objeto Math
+
+// Floor arredonda para baixo.
+console.log(Math.floor(num3));
+// Ceil arredonda para cima.
+console.log(Math.ceil(num3));
+// Ceil arredonda apartir da casa decuimal mais proxima.
+console.log(Math.round(num3));
+
+//Acessando elementos html pelo js.
+
+const numero = Number(prompt('Digite um número:'));
+let varHtml = document.getElementById('numero-titulo');
+let texto = document.getElementById('texto');
+console.log(varHtml);
+console.log(texto);
+
+varHtml.innerHTML += numero;
+texto.innerHTML = '';
+texto.innerHTML += numero ** 0.5;
+texto.innerHTML += '</br>';
+texto.innerHTML += Number.isInteger(numero);
+texto.innerHTML += '</br>';
+texto.innerHTML += Math.floor(numero);
+texto.innerHTML += '</br>';
+texto.innerHTML += Math.ceil(numero);
+texto.innerHTML += '</br>';
+texto.innerHTML += numero.toFixed(2);
+texto.innerHTML += '</br>';
+texto.innerHTML += Number.isNaN(numero);

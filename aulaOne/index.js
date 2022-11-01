@@ -1,4 +1,3 @@
-console.log('teste');
 console.log('brunno "Khouri"');
 console.log("brunno 'Khouri'");
 let sobreNome = 'Khouri';
